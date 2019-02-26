@@ -33,7 +33,7 @@ with open('my_list.json', 'r') as f:
                 names.append(":" + name)
         output[place] = names
 
-    # Extra bucket for the ones who don't have a relevant bucket
+    # One more extra bucket for the ones who don't have a relevant bucket
     names = []
     for name, age in ppl_ages.items():
         if age < ages_list[0]:
